@@ -10,6 +10,7 @@ import { Cargando, Copiable, ErrorCaja, LinkBaseScan, Metrica, Tarjeta } from ".
 import { ReglasFondo } from "./ReglasFondo";
 import { TablaCartera } from "./TablaCartera";
 import { TortasFondo } from "./TortasFondo";
+import { Portada } from "./Portada";
 
 type Icono = (p: { className?: string }) => React.ReactElement;
 const svg = (children: React.ReactNode): Icono =>
@@ -161,10 +162,11 @@ export function PanelPublico() {
   const fondo = useApi<ResumenFondo>("/api/fondo");
   return (
     <div className="space-y-5">
-      <h1 className="sr-only">Panel público del fondo</h1>
-      <p className="text-sm text-suave">
-        Cada cheque y cada pagaré es un registro público en Base. Mirá la cartera, los cobros y los rechazos, con link para verificarlos.
-      </p>
+      <Portada direccionFondo={fondo.estado === "listo" ? fondo.datos.direccionContrato : undefined} />
+      <div className="flex flex-col gap-1 pt-3 sm:flex-row sm:items-baseline sm:justify-between">
+        <h2 className="text-lg font-semibold">El fondo, en vivo</h2>
+        <p className="text-xs text-suave">Cartera, cobros y rechazos, con link para verificarlos.</p>
+      </div>
       {fondo.estado === "cargando" && <Cargando lineas={3} />}
       {fondo.estado === "error" && <ErrorCaja mensaje={fondo.mensaje} onReintentar={fondo.recargar} />}
       {fondo.estado === "listo" && (

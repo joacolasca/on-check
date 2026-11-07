@@ -5,8 +5,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fondo de cheques transparente",
-  description: "Cada cheque es un registro público en Base. Prototipo para HackaTwin.",
+  title: "On-Chain · El cheque, a la vista",
+  description: "Fondo de cheques y pagarés de pymes: cada activo es un registro público y los límites de riesgo los hace cumplir el contrato. Pagos con ARGt de Twin.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

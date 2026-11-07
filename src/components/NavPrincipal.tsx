@@ -30,11 +30,11 @@ export function NavPrincipal() {
   return (
     <header className="sticky top-0 z-10 border-b border-linea bg-panel">
       <div className="mx-auto flex max-w-4xl items-center justify-between gap-3 px-4 py-3">
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2" aria-label="On-Chain, inicio">
           <Marca />
-          <span className="hidden font-semibold sm:inline">Fondo de cheques</span>
-        </div>
-        <Link href="/" title="El fondo corre en testnet con ARGt simulado. El pago con ARGt real está en Arbitrum." className="flex items-center gap-2 rounded-full border border-linea-fuerte px-3 py-1.5 text-sm">
+          <span className="font-semibold tracking-tight">On-Chain</span>
+        </Link>
+        <Link href="/argt-real" title="El fondo corre en testnet con ARGt simulado. El pago con ARGt real está en Arbitrum." className="flex items-center gap-2 rounded-full border border-linea-fuerte px-3 py-1.5 text-sm">
           <span aria-hidden className="h-2 w-2 rounded-full bg-acento" />
           <span className="hidden sm:inline">Fondo en testnet · ARGt real en Arbitrum</span>
           <span className="sm:hidden">Testnet · ARGt real</span>

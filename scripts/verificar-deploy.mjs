@@ -15,9 +15,15 @@ const PATRONES_SECRETOS = [
   { nombre: "API key de Anthropic", re: /sk-ant-[A-Za-z0-9_-]{10,}/ },
 ];
 
-/** Devuelve los patrones de secretos que aparecen en `texto`. */
+// Valores públicos de 32 bytes que sí pueden aparecer en el cliente: hashes de transacciones ya publicados.
+export const HASHES_PUBLICOS = [
+  "0xd2d1a142027dd4ebdbadac7aefe833c24bc790c4a28bd9443e4fea21128429a9", // pago con ARGt real en Arbitrum One
+];
+
+/** Devuelve los patrones de secretos que aparecen en `texto` (sin contar los hashes públicos conocidos). */
 export function buscarSecretos(texto) {
-  return PATRONES_SECRETOS.filter((p) => p.re.test(texto)).map((p) => p.nombre);
+  const limpio = HASHES_PUBLICOS.reduce((t, h) => t.split(h).join(""), texto);
+  return PATRONES_SECRETOS.filter((p) => p.re.test(limpio)).map((p) => p.nombre);
 }
 
 /** Rutas de scripts (`/_next/...js`) referenciadas por el HTML. */

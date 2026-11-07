@@ -42,6 +42,8 @@ describe("verificar deploy", () => {
   it("detecta patrones y scripts", () => {
     expect(buscarSecretos("sk-or-v1-abcdefghijkl")).toEqual(["API key de OpenRouter"]);
     expect(buscarSecretos("0x" + "a".repeat(40))).toEqual([]);
+    expect(buscarSecretos("tx 0xd2d1a142027dd4ebdbadac7aefe833c24bc790c4a28bd9443e4fea21128429a9")).toEqual([]);
+    expect(buscarSecretos("0x" + "b".repeat(64))).toEqual(["clave privada (0x + 64 hex)"]);
     expect(scriptsDelHtml('<script src="/_next/x.js"></script><script src="/_next/x.js"></script>')).toEqual(["/_next/x.js"]);
   });
 });

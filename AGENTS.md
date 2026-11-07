@@ -1,8 +1,8 @@
-# HackaTwin — Fondo de cheques transparente onchain
+# On-Chain — fondo de cheques y pagarés transparente
 
 Instrucciones para cualquier agente de código (Claude Code, Codex u otro). Este archivo es la **única fuente de verdad**: `CLAUDE.md` solo lo importa.
 
-Prototipo para la hackatón HackaTwin (sáb 7-11-2026). Un fondo que compra cheques electrónicos (ECHEQ) de pymes. Cada cheque es un registro público en Base; el inversor entra y cobra en ARGt.
+Prototipo para HackaTwin (sáb 7-11-2026). Un fondo que compra cheques electrónicos y pagarés de pymes. Cada activo es un registro público en Base; el inversor entra y cobra en ARGt.
 
 ## Antes de hacer nada
 - Contexto del producto: `docs/SPEC.md`. Decisiones cerradas: `docs/DECISIONS.md` (no las re-discutas). Interfaces entre módulos: `docs/INTERFACES.md`.

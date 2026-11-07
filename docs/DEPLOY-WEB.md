@@ -22,7 +22,7 @@ Si las claves están en Preview, cualquier rama con preview las recibe. Las marc
 **No cargar:** `DEPLOYER_PRIVATE_KEY`, `PYME_PRIVATE_KEY`, `API_MODE`, `CHAIN_DEPLOYMENT_FILE`, `INFURA_RPC_URL`, `ALCHEMY_RPC_URL`, `ETHERSCAN_API_KEY` ni nada con el prefijo `NEXT_PUBLIC_` que sea secreto. Opcionales: `BASE_MAINNET_RPC_URL` (si no, se usa la pública), `DEMO_TOPE_FONDO` (32M por defecto) y `BASE_SEPOLIA_RPC_FALLBACK_URL` (respaldo de las **lecturas** si Infura responde 429; por defecto PublicNode, no hace falta cargarlo). Las transacciones salen solo por `BASE_SEPOLIA_RPC_URL`.
 
 ## 2. Checklist del deploy
-El recorrido paso a paso en Vercel está en `docs/VERCEL-PASOS.md`. Producción: https://hackatwin-fondo-cheques.vercel.app (proyecto en el equipo de Joaquín).
+El recorrido paso a paso en Vercel está en `docs/VERCEL-PASOS.md`. Producción: https://on-check.vercel.app.
 
 **Quién despliega:** Vercel (plan Hobby) solo despliega commits cuyo autor es miembro del proyecto. Los merges hechos por Rama quedan "Deployment was blocked"; el deploy de producción lo dispara Joaquín (merge suyo o *Redeploy* en Vercel). No contratar un plan pago por esto.
 

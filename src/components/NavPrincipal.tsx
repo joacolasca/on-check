@@ -36,8 +36,7 @@ export function NavPrincipal() {
         </Link>
         <Link href="/argt-real" title="El fondo corre en testnet con ARGt simulado. El pago con ARGt real está en Arbitrum." className="flex items-center gap-2 rounded-full border border-linea-fuerte px-3 py-1.5 text-sm">
           <span aria-hidden className="h-2 w-2 rounded-full bg-acento" />
-          <span className="hidden sm:inline">Fondo en testnet · ARGt real en Arbitrum</span>
-          <span className="sm:hidden">Testnet · ARGt real</span>
+          Testnet · ARGt real
         </Link>
         <TemaToggle />
       </div>

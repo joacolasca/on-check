@@ -227,26 +227,8 @@ export function MandatoPantalla() {
   return (
     <div className="space-y-5">
       <div>
-        <p className="text-xs font-medium uppercase tracking-[0.14em] text-suave">Mandato</p>
-        <h1 className="mt-1 text-3xl font-semibold tracking-tight">Tus reglas. Un botón. Cada movimiento explicado.</h1>
-        <p className="mt-2 max-w-2xl text-sm text-suave">
-          Fijás tus reglas una vez y tocás un solo botón. El agente recorre la bandeja, compra lo que cumple, deja asentado lo que omite y te explica cada movimiento. Podés pausarlo o revocarlo cuando quieras.
-        </p>
-        <ol className="mt-4 grid gap-2 sm:grid-cols-3">
-          {[
-            ["1", "Vos ponés las reglas", "Presupuesto, riesgo mínimo, tope por emisor, plazo y garantía."],
-            ["2", "El agente analiza", "Consulta el BCRA, el balance y la garantía de cada activo, y explica su decisión."],
-            ["3", "El código decide", "El servidor aplica tu mandato con reglas fijas y el contrato frena lo que pasa los límites del fondo."],
-          ].map(([n, t, d]) => (
-            <li key={n} className="flex gap-3 rounded-2xl border border-linea bg-panel p-3">
-              <span aria-hidden className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-acento-suave text-xs font-semibold text-acento">{n}</span>
-              <span className="text-sm">
-                <span className="block font-medium">{t}</span>
-                <span className="text-suave">{d}</span>
-              </span>
-            </li>
-          ))}
-        </ol>
+        <h1 className="text-2xl font-semibold">Mandato</h1>
+        <p className="mt-1 text-sm text-suave">Fijás tus reglas una vez y el agente invierte por vos. Lo que no cumple, no se compra.</p>
       </div>
       {b.estado === "cargando" && <Cargando lineas={4} />}
       {b.estado === "error" && <ErrorCaja mensaje={b.mensaje} onReintentar={b.recargar} />}

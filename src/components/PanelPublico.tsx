@@ -78,7 +78,7 @@ export function ResumenFondoVista({ f }: { f: ResumenFondo }) {
         <div className="mt-6 grid grid-cols-4 gap-2 sm:gap-3">
           <Accion href="/pyme" etiqueta="Cargar activo" icono={IconoMas} />
           <Accion href="/invertir" etiqueta="Invertir" icono={IconoFlecha} />
-          <Accion href="/demo" etiqueta="Demo" icono={IconoPlay} />
+          <Accion href="/mandato" etiqueta="Mandato" icono={IconoPlay} />
           <Accion href={urlDireccionSepolia(f.direccionContrato)} etiqueta="Contrato" icono={IconoExterno} externa />
         </div>
       </section>
@@ -132,15 +132,6 @@ function ArgtSeccion() {
   const a = r.datos;
   return (
     <div className="space-y-2 text-sm">
-      <p className="text-suave">
-        El fondo de la demo opera en testnet con un ARGt simulado, para poder mostrar cada regla sin mover plata. Con el ARGt real de Twin hicimos un pago de un cheque en Arbitrum One y desplegamos los mismos contratos en Avalanche Fuji.
-      </p>
-      <p className="flex flex-wrap gap-x-4 gap-y-1">
-        <a className="underline" href="https://arbiscan.io/tx/0xd2d1a142027dd4ebdbadac7aefe833c24bc790c4a28bd9443e4fea21128429a9" target="_blank" rel="noreferrer">Transacción real en Arbiscan ↗</a>
-        <a className="underline" href="/argt-real">Pagar con ARGt real</a>
-        <a className="underline" href="/avalanche">Despliegue en Avalanche</a>
-      </p>
-      <p className="text-suave">Lectura en vivo del ARGt en Base mainnet:</p>
       <p>
         En circulación: <span className="font-mono tabular-nums">{formatDecimal(unidadesADecimal(a.totalSupply), 2)} ARGt</span>
       </p>
@@ -162,23 +153,20 @@ export function PanelPublico() {
   const fondo = useApi<ResumenFondo>("/api/fondo");
   return (
     <div className="space-y-5">
-      <Portada direccionFondo={fondo.estado === "listo" ? fondo.datos.direccionContrato : undefined} />
-      <div className="flex flex-col gap-1 pt-3 sm:flex-row sm:items-baseline sm:justify-between">
-        <h2 className="text-lg font-semibold">El fondo, en vivo</h2>
-        <p className="text-xs text-suave">Cartera, cobros y rechazos, con link para verificarlos.</p>
-      </div>
+      <h1 className="sr-only">Panel público del fondo</h1>
       {fondo.estado === "cargando" && <Cargando lineas={3} />}
       {fondo.estado === "error" && <ErrorCaja mensaje={fondo.mensaje} onReintentar={fondo.recargar} />}
       {fondo.estado === "listo" && (
         <>
           <ResumenFondoVista f={fondo.datos} />
+          <Portada direccionFondo={fondo.datos.direccionContrato} />
           <MetricasPonderadas f={fondo.datos} />
           <Tarjeta titulo="Composición de la cartera"><TortasFondo composicion={fondo.datos.composicion} /></Tarjeta>
           <Tarjeta titulo="Reglas del fondo"><ReglasFondo fondo={fondo.datos} /></Tarjeta>
         </>
       )}
       <Tarjeta titulo="Cartera: cheques y pagarés"><CarteraSeccion /></Tarjeta>
-      <Tarjeta titulo="ARGt de Twin: operación real y multi-chain"><ArgtSeccion /></Tarjeta>
+      <Tarjeta titulo="ARGt de Twin en Base mainnet"><ArgtSeccion /></Tarjeta>
     </div>
   );
 }

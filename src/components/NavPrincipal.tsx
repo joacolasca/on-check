@@ -7,7 +7,7 @@ const LINKS = [
   { href: "/", texto: "Panel" },
   { href: "/pyme", texto: "Pyme" },
   { href: "/invertir", texto: "Invertir" },
-  { href: "/mandato", texto: "Mandato" },
+  { href: "/plan", texto: "Plan automático" },
   { href: "/politicas", texto: "Políticas" },
   { href: "/argt-real", texto: "ARGt real" },
   { href: "/avalanche", texto: "Avalanche" },

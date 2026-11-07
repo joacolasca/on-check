@@ -78,7 +78,7 @@ export function ResumenFondoVista({ f }: { f: ResumenFondo }) {
         <div className="mt-6 grid grid-cols-4 gap-2 sm:gap-3">
           <Accion href="/pyme" etiqueta="Cargar activo" icono={IconoMas} />
           <Accion href="/invertir" etiqueta="Invertir" icono={IconoFlecha} />
-          <Accion href="/mandato" etiqueta="Mandato" icono={IconoPlay} />
+          <Accion href="/plan" etiqueta="Plan automático" icono={IconoPlay} />
           <Accion href={urlDireccionSepolia(f.direccionContrato)} etiqueta="Contrato" icono={IconoExterno} externa />
         </div>
       </section>

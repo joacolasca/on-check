@@ -1,0 +1,96 @@
+{
+  "_nota": "Los CUITs son de empresas grandes con CUIT público, verificados el 3-11-2026 contra la API de la Central de Deudores del BCRA (nombre y dígito verificador). NUNCA clientes de Facu. Las respuestas del BCRA están guardadas en shared/fixtures/bcra/. IMPORTANTE: los rechazos de la demo los marca el oráculo de demo (\"adelantar tiempo\"): son simulados y NO reflejan el comportamiento real de la empresa; las garantías de los pagarés también son un ejemplo simulado (el activo, su descripción y su valor declarado son de demo, no de un cliente real). v2 (6-11-2026): pool de $ 100.000.000 y reglas del fondo de 10 % por emisor, 25 % por industria y 15 % de liquidez mínima (docs/V2-SPEC.md). Montos y plazos de la v2: TODO(confirmar con Joaquín/Facu).",
+  "cheques": [
+    {
+      "escenario": "sano-principal",
+      "objetivo_demo": "Primer cheque de la demo, en vivo: banda A, se fondea (adelanto de ~$ 8,6 M, 8,6 % del patrimonio) y después se paga",
+      "librador_cuit": "30703088534",
+      "librador_nombre": "MERCADOLIBRE S.R.L.",
+      "tipo": "cheque",
+      "nominal": "9000000",
+      "dias": 60,
+      "resultado_demo": "pagado"
+    },
+    {
+      "escenario": "concentracion",
+      "objetivo_demo": "Segundo cheque de MercadoLibre, en vivo y ANTES de pagar el primero: con una tasa de 26,06 %, el primero adelanta ~$ 8.614.000 y este ~$ 3.871.000; juntos son ~12,5 % del patrimonio ($ 100.000.000), por encima del tope del 10 % por emisor, y el contrato revierte",
+      "librador_cuit": "30703088534",
+      "librador_nombre": "MERCADOLIBRE S.R.L.",
+      "tipo": "cheque",
+      "nominal": "4000000",
+      "dias": 45,
+      "resultado_demo": "rechazado-por-politica"
+    },
+    {
+      "escenario": "sano-2",
+      "objetivo_demo": "Otro emisor sano para diversificar la cartera (comercio minorista)",
+      "librador_cuit": "30548083156",
+      "librador_nombre": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA",
+      "tipo": "cheque",
+      "nominal": "6000000",
+      "dias": 30,
+      "resultado_demo": "pagado"
+    },
+    {
+      "escenario": "rebote",
+      "objetivo_demo": "Cheque que rebota (rechazo SIMULADO por el oráculo de demo): la pérdida queda pública. La empresa tiene situación 1 en el BCRA; el rechazo no refleja su comportamiento real",
+      "librador_cuit": "30590360763",
+      "librador_nombre": "CENCOSUD S A",
+      "tipo": "cheque",
+      "nominal": "5000000",
+      "dias": 60,
+      "resultado_demo": "rechazado (rebota, simulado)"
+    },
+    {
+      "escenario": "pagare-energia",
+      "objetivo_demo": "Pagaré con garantía: una turbina eólica (activo de ejemplo, simulado) con valor declarado de $ 16.000.000. La prenda legal es un paso posterior al análisis",
+      "librador_cuit": "30526552659",
+      "librador_nombre": "PAMPA ENERGIA S A",
+      "tipo": "pagare",
+      "nominal": "8000000",
+      "dias": 90,
+      "garantia": {
+        "tipo": "energia",
+        "descripcion": "Turbina eólica de 2 MW (activo de ejemplo de la demo, simulado)",
+        "valorDeclarado": "16000000",
+        "documentos": ["Factura de compra de la turbina", "Tasación del vendedor"]
+      },
+      "resultado_demo": "pagado"
+    },
+    {
+      "escenario": "pagare-vehiculo",
+      "objetivo_demo": "Pagaré con garantía: un camión (activo de ejemplo, simulado) con valor declarado de $ 9.000.000",
+      "librador_cuit": "30500530851",
+      "librador_nombre": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.",
+      "tipo": "pagare",
+      "nominal": "6000000",
+      "dias": 60,
+      "garantia": {
+        "tipo": "vehiculo",
+        "descripcion": "Camión de carga usado (activo de ejemplo de la demo, simulado)",
+        "valorDeclarado": "9000000",
+        "documentos": ["Título del automotor (ejemplo)"]
+      },
+      "resultado_demo": "pagado"
+    },
+    {
+      "escenario": "pendiente-con-antecedente",
+      "objetivo_demo": "Queda en Pending para mostrar los cuatro estados. Telecom tiene un cheque rechazado real del 13-2-2025, fuera de la ventana de 12 meses: sirve para mostrar cómo el agente razona un antecedente antiguo",
+      "librador_cuit": "30639453738",
+      "librador_nombre": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+      "tipo": "cheque",
+      "nominal": "3000000",
+      "dias": 90,
+      "resultado_demo": "pending"
+    }
+  ],
+  "pool_demo": {
+    "inversor1_deposito": "70000000",
+    "inversor2_deposito": "30000000"
+  },
+  "suplente": {
+    "librador_cuit": "30526552659",
+    "librador_nombre": "PAMPA ENERGIA S A",
+    "nota": "Sana, situación 1 sin rechazos. Pampa y Loma Negra (30500530851) ya son escenarios de la v2 (pagarés con garantía)."
+  }
+}

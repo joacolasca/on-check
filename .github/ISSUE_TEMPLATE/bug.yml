@@ -1,0 +1,25 @@
+name: Bug
+description: Algo no funciona como debería.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué pasa
+      description: Qué esperabas y qué pasó en cambio.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Detalles
+      description: Pantalla, ruta, mensaje de error, hash de la tx. Nunca pegues claves ni el contenido de .env.

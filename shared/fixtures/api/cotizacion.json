@@ -1,0 +1,32 @@
+{
+  "_nota": "DATOS FALSOS para desarrollo. Rama los reemplaza por la API real sin cambiar la forma.",
+  "id": "0x0000000000000000000000000000000000000000000000000000000000000c07",
+  "libradorHash": "0x000000000000000000000000000000000000000000000000000000000000011b",
+  "input": {
+    "cuit": "TODO(confirmar)",
+    "nominal": "10000000",
+    "vencimiento": "2027-01-05",
+    "pyme": "0x0000000000000000000000000000000000000001"
+  },
+  "scoring": {
+    "cuit": "TODO(confirmar)",
+    "denominacion": "Librador de ejemplo (mock)",
+    "puntaje": 85,
+    "banda": "A",
+    "situacionPeor": 1,
+    "chequesRechazadosImpagos": 0,
+    "refinanciaciones": false,
+    "deudaCreciente": false,
+    "ajustes": [],
+    "fuente": "bcra-cache",
+    "consultadoEn": "2026-11-02T12:00:00.000Z"
+  },
+  "dias": 60,
+  "tasaTnaBps": 2600,
+  "descuento": "427397",
+  "precioCompra": "9572603",
+  "aprobada": true,
+  "motivoRechazo": null,
+  "explicacion": "Dato de ejemplo: el librador no registra atrasos en la Central de Deudores del BCRA, así que entra en la banda A. La tasa es la de referencia más 2 puntos.",
+  "cotizacionHash": "0x0000000000000000000000000000000000000000000000000000000000c0ffee"
+}

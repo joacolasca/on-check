@@ -1,0 +1,30 @@
+# dependencias
+/node_modules
+.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# tests
+/coverage
+
+# variables de entorno: nunca commitear claves
+.env
+.env.*
+!.env.example
+
+# foundry
+/contracts/out/
+/contracts/cache/
+/contracts/broadcast/
+
+# misc
+.DS_Store
+*.pem
+.vercel
+npm-debug.log*

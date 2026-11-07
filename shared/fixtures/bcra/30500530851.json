@@ -1,0 +1,2942 @@
+{
+ "_nota": "Copia de las respuestas reales de la API pública del BCRA (Central de Deudores), guardada para que la demo ande aunque la API falle. Sin modificaciones.",
+ "cuit": "30500530851",
+ "consultadoEn": "2026-11-03T15:48:33Z",
+ "fuente": "https://api.bcra.gob.ar/centraldedeudores/v1.0",
+ "deudas": {
+  "status": 200,
+  "results": {
+   "identificacion": 30500530851,
+   "denominacion": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.",
+   "periodos": [
+    {
+     "periodo": "202609",
+     "entidades": [
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 108737.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 431290.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 1580.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 164186.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 147191.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 60264.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 109100.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2024-02-28",
+       "monto": 299449.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "historicas": {
+  "status": 200,
+  "results": {
+   "identificacion": 30500530851,
+   "denominacion": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.",
+   "periodos": [
+    {
+     "periodo": "202609",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 108737.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 431290.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 1580.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 164186.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 147191.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 60264.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 109100.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 299449.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202608",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 41520.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 439644.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 167364.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 143169.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 135958.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 96352.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 168125.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202607",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 72431.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 429567.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 512.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 847506.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 115180.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 122066.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 89497.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 9758960.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202606",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 21172.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 9993022.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 835801.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 61.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 61494.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 134175.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 1,
+       "monto": 107066.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 89086.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 10011115.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 57.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202605",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 49950.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 9368660.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 1093533.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 106766.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 60742.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 10381272.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 7123.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 88334.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 10016380.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202604",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 28523.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 9338304.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 69.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 231.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 12611166.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 153719.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 60612.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 2467772.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 502.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 84962.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 9729099.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202603",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 35893.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 9126256.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 89.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 1161710.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 110857.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 31259.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 12349080.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 14566.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 83071.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 62.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 39763.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202602",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 22510.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 8904826.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 73.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 491361.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 125921.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 55512.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 11918699.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 10534222.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 166308.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 40158.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202601",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 9265.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 8688082.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 60155.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 143648.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 174832.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 240703.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 12078429.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 6303999.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 157876.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202512",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 8435037.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 2945027.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 114137.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 746180.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 275116.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 391492.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 11678375.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 106.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 105395.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202511",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 14896562.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 155318.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 736985.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 60.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 82269.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 24406754.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 82946.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 92.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202510",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 22132946.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 240535.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 299975.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 727608.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 227698.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 95207.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 24563962.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 54.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 82604.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202509",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 15222226.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 10428358.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 387.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 1570008.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 685260.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 323199.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 219672.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 23274785.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 57.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 74618.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 69.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202508",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 10476168.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 4876.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5852239.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 685061.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 312059.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 101303.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 24000983.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 115.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 82229.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202507",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 11288854.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 121.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 21453321.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 696330.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 236993.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 389984.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 23174072.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 81037.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202506",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 10225470.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 4067.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5948300.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 611122.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 203722.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 7685994.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 23014158.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 82822.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202505",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 10248127.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 7769.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5751080.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 607832.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 189527.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 10624832.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 16823289.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 78184.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202504",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 87762.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 3993.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 484109.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 592222.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 450983.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 649645.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 16971028.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 110984.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202503",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 3721.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 136334.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 539211.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 339433.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 575884.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 16976765.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 298.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 64351.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202502",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 5678.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 111.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 259038.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 547380.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 127905.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 297090.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 16701534.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 49432.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202501",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 197263.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 2014.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 292327.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 538576.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 110041.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 35373.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 10267307.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 3435.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 36631.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202412",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 2507573.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 140560.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 610097.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 524265.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 307752.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 343985.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 9919279.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 93.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 34619.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202411",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 2706300.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 4623840.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 1583.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 823901.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 510304.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 136116.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 283073.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 9560645.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 38285.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202410",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 6044653.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 1517905.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 46053.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 5606.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 824094.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 496084.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 303737.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 117876.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 9880325.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 41.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 34377.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "chequesRechazados": null
+}

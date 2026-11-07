@@ -1,0 +1,108 @@
+{
+  "_nota": "DATOS DE EJEMPLO (mock v2, API_MODE=mock): coherentes con cheques.json. Los emisores, el patrimonio y las cuentas son ficticios o simulados; no es el estado de ningún contrato real.",
+  "totalAssets": "95257030.13",
+  "liquidez": "67542180.79",
+  "enCheques": "27714849.34",
+  "valorCuotaparte": "952.5703013",
+  "cantidadCheques": {
+    "Pending": 1,
+    "Funded": 4,
+    "Paid": 1,
+    "Rejected": 1
+  },
+  "concentracionMaxBps": 904,
+  "rechazos": {
+    "cantidad": 1,
+    "perdida": "4785808.22"
+  },
+  "tirAnualizadaBps": -50060,
+  "direccionContrato": "0x0000000000000000000000000000000000000000",
+  "red": "base-sepolia",
+  "politica": {
+    "maxEmisorBps": 1000,
+    "maxIndustriaBps": 2500,
+    "liquidezMinBps": 1500,
+    "objetivoTnaBps": 4000,
+    "comisionAnualBps": 300,
+    "precioInicialCuotaparte": "1000",
+    "minCuotapartes": "1000",
+    "rescateHorasHabiles": 24,
+    "rescateCorteHora": 15
+  },
+  "composicion": {
+    "porEmisor": [
+      {
+        "clave": "0x9f3a…c41e",
+        "etiqueta": "MERCADOLIBRE S.R.L.",
+        "monto": "8614454.8",
+        "bps": 3108
+      },
+      {
+        "clave": "0xa6c4…1f73",
+        "etiqueta": "PAMPA ENERGIA S A",
+        "monto": "7485939.73",
+        "bps": 2701
+      },
+      {
+        "clave": "0x4b71…08d2",
+        "etiqueta": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA",
+        "monto": "5871484.94",
+        "bps": 2119
+      },
+      {
+        "clave": "0x31ee…9a0c",
+        "etiqueta": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.",
+        "monto": "5742969.87",
+        "bps": 2072
+      }
+    ],
+    "porIndustria": [
+      {
+        "clave": "2",
+        "etiqueta": "Tecnología y comercio electrónico",
+        "monto": "8614454.8",
+        "bps": 3108
+      },
+      {
+        "clave": "4",
+        "etiqueta": "Energía y servicios públicos",
+        "monto": "7485939.73",
+        "bps": 2701
+      },
+      {
+        "clave": "1",
+        "etiqueta": "Comercio minorista y consumo masivo",
+        "monto": "5871484.94",
+        "bps": 2119
+      },
+      {
+        "clave": "7",
+        "etiqueta": "Industria manufacturera",
+        "monto": "5742969.87",
+        "bps": 2072
+      }
+    ],
+    "porTipo": [
+      {
+        "clave": "cheque",
+        "etiqueta": "Cheques",
+        "monto": "14485939.74",
+        "bps": 5227
+      },
+      {
+        "clave": "pagare",
+        "etiqueta": "Pagarés",
+        "monto": "13228909.6",
+        "bps": 4773
+      }
+    ]
+  },
+  "liquidezBps": 7090,
+  "cuotapartesEmitidas": "100000",
+  "comision": {
+    "devengadaCuotapartes": "41.2",
+    "devengadaPesos": "39246.9"
+  },
+  "rescatesPendientes": 0,
+  "modoDemo": false
+}

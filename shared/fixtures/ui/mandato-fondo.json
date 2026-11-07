@@ -1,0 +1,12 @@
+{
+  "antes": {
+    "totalAssets": "100000000",
+    "liquidezBps": 10000,
+    "valorCuotaparte": "1000"
+  },
+  "despues": {
+    "totalAssets": "100000000",
+    "liquidezBps": 4120,
+    "valorCuotaparte": "990.2"
+  }
+}

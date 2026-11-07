@@ -1,0 +1,7457 @@
+{
+ "_nota": "Copia de las respuestas reales de la API pública del BCRA (Central de Deudores), guardada para que la demo ande aunque la API falle. Sin modificaciones.",
+ "cuit": "30639453738",
+ "consultadoEn": "2026-11-03T15:48:33Z",
+ "fuente": "https://api.bcra.gob.ar/centraldedeudores/v1.0",
+ "deudas": {
+  "status": 200,
+  "results": {
+   "identificacion": 30639453738,
+   "denominacion": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+   "periodos": [
+    {
+     "periodo": "202609",
+     "entidades": [
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 96350.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 28.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 399977.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 37771214.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 80885593.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 20036432.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 9866533.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 15235237.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 6160099.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 288804604.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 12266366.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 1955925.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 411159.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 1497957.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 292.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 1600.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "fechaSit1": "2025-12-30",
+       "monto": 45013604.0,
+       "diasAtrasoPago": 0,
+       "refinanciaciones": false,
+       "recategorizacionOblig": false,
+       "situacionJuridica": false,
+       "irrecDisposicionTecnica": false,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "historicas": {
+  "status": 200,
+  "results": {
+   "identificacion": 30639453738,
+   "denominacion": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+   "periodos": [
+    {
+     "periodo": "202609",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 96350.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 28.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 399977.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 37771214.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 80885593.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 20036432.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9866533.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 15235237.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 6160099.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 288804604.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12266366.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 1955925.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 411159.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1497957.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 292.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 1600.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 45013604.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202608",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 127888.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 32288.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 399420.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 37340000.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 107950263.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 10047019.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9702376.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14725680.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 1022681.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 210358008.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12110406.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 41428670.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 20125369.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 1579.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 1,
+       "monto": 21731.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1927529.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 99.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 1575.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 30025831.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202607",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 75403.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 395493.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 47410568.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 71068650.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 52188948.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9555797.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 13968263.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 9608138.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 205368471.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 11938835.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 41924732.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 52006741.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 680.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 1,
+       "monto": 5002824.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 1,
+       "monto": 6633.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 1,
+       "monto": 9790336.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 2000396.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 169.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 1266436.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 79990576.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202606",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 74986.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2498521.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 28796193.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 50823962.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1044435.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 20106377.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9401144.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14262734.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5738572.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 220158699.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 11795511.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 39937214.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 42006452.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 364.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 1,
+       "monto": 102602.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 2479559.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 8190.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 80060813.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 2470601.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202605",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 20000000.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 101753.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 90258.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2642931.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 152944.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 48771024.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1013130.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 60375741.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9130466.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14637698.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 1875339.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 195114927.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12937399.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 750002.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 745379.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 34984351.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 24106273.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 4043048.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 9868875.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 863670.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 29991857.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4480306.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202604",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 85211.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 25215653.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 10344564.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2586593.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 3578.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 71965063.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 981348.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 38351087.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 8903401.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14587119.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 6004979.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 188239973.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12661251.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 732691.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 22423791.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 35391520.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 13672844.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 3144716.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 32230498.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 14998318.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 39995123.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4384029.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202603",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 32620389.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 45499.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 213.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20684489.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2715817.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 153462.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 100059963.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1057304.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 8703103.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14227462.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5028635.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 188730170.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12504199.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 731906.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 74004947.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 10005298.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 122889257.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 2588952.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 22165570.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 39995674.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4661346.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202602",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 31606507.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 66625.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 130880.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20617349.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2666330.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 20141793.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 68323992.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1024797.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 1038.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 8548295.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 23709115.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 720713.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 192340569.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 16466179.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 753484.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 134215109.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 24978364.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 119604077.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1598053.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 1,
+       "monto": 1632335.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 748.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 19892521.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 89989542.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4528045.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202601",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 70690753.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 96624.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 10559114.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20665765.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2648501.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 368417.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 86129622.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 996777.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 8508242.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 13698314.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5199706.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 194699050.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12510841.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 772519.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 134414060.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 14995976.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 121849262.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1329573.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 93226.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 19529935.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 89989803.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4406660.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202512",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 29676889.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 55952.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 25495322.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20684409.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2803972.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 35000258.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 126252321.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1073769.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 740788.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 8373490.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14243735.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 2444596.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 242291680.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12444600.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 776933.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 122759110.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 23363349.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 125504252.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 1,
+       "monto": 15107.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1365352.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 17996780.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 40003602.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4724595.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202511",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 68580588.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 101439.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 15044667.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20713608.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2717239.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 132004755.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1053453.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 746924.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 7189643.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 14310679.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 111988.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 237320769.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12301512.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 780421.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 93184510.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 121965796.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1270759.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 16208334.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 47994341.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 4594820.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202510",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 61976416.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 73624.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 5084708.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20684303.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2658521.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 157795693.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1034403.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 740165.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 7107781.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 15774499.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5127918.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 234354708.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12233907.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 774463.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 93324025.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 117868322.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1249002.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 1806.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 28716238.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 41177168.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 3413139.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202509",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 55332391.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 56028.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 26996.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20660214.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2785189.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 159877854.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1104033.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 697981.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 6911143.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 15305792.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 2596501.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 223344242.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12252981.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 731643.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 94543764.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 126860949.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1164076.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 50457.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 41713298.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 2206833.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202508",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 66041258.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 93203.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 473.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20617822.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 592175.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 157814692.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1052974.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 686002.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 6771619.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 13928381.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 133958.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 215298448.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 11559650.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 716113.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 119425303.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 8516623.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 120330225.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 378.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1097890.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 49675.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 43131073.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 2103963.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202507",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 51933693.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 60309.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 384581.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 20475045.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 609807.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 155191798.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 1,
+       "monto": 1012519.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 697737.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 6770177.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 33171613.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 16124.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 217411962.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 11652389.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 729500.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 119025362.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 325705.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 8252472.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 136468305.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 243983.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1019939.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 4180578.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 60450673.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 1,
+       "monto": 2024503.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202506",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 38.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 54725411.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 41204.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 19849851.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 10235691.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 543235.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 104371055.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 613707.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 1,
+       "monto": 76.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 26452117.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 49309233.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 2793891.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 79645882.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 10886860.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 642771.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 11807503.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 21203.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 15653950.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 42592973.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 23841.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 369551.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1023172.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 464627.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 1,
+       "monto": 2344468.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 21903978.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 40063632.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 25311555.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202505",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 4885760.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 49583096.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2508730.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 69667.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 11058916.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 1871352.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 84028985.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 1016726.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 11804111.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 34291280.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 8606764.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 79981545.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 14148623.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 650191.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 65686485.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 41127.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 594911.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 15185465.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 47127943.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 47106.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 10189741.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 525921.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1019929.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 23776.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 1,
+       "monto": 2355516.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 25271666.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 14988714.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202504",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 4767597.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 48429922.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2427926.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 62152.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 10726757.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 1822690.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 121704476.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 988884.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 10939430.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 32062585.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 10503277.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 238443771.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 13808514.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 635915.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 25000.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 59895.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 552040.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 15137745.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 11784720.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 69246.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 149787.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 507840.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1018462.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 148.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 1,
+       "monto": 2318275.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 32222716.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 109.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202503",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 52291831.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2354459.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 30230.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 10303932.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 1742740.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 90807479.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 925029.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 12958082.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 30699636.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 4939921.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 216795847.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 15827955.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 581318.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 96940.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 77539.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 514856.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 50381905.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 90810.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 11205812.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 493638.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 923603.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 182028.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 26971220.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 50576604.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 10008515.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202502",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 1159343.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 1,
+       "monto": 20053366.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 51430953.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2302344.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 45802.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 11775130.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 44124.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2242779.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 201744.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 69449114.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 919801.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 11458339.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 31096437.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 5708352.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 213156038.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 13297526.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 581990.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 153961.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 94145.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 503393.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 1,
+       "monto": 15077777.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 30764809.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 111402.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 138905.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 483039.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1234343.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 655.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 29474560.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 9997066.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 3001482.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202501",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 4564814.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 1,
+       "monto": 29955289.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 55033750.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2249824.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 41401.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 11546265.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 15146978.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2207647.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 15073041.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 41122281.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 903582.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9982081.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 25470275.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 9713956.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 542479.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 13099265.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 574796.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 498864.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 109723.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 489859.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 31234382.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 131418.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 134637.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 471750.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 980385.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 888.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 1,
+       "monto": 53.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 22478677.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 30058405.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 10007886.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202412",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 5797407.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 1,
+       "monto": 29935399.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 53499647.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2193981.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 31118.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 12584464.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 27.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2161248.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 30642876.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 1475021.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 11637233.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 29763481.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 4631765.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 121500.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 15631570.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 561983.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 89538.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 124386.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 464576.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 30517585.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 150750.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 131954.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 459291.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1031605.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 1,
+       "monto": 10080.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 25651284.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 19953488.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 10517543.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202411",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 5719284.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 1,
+       "monto": 23983232.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 52395519.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 2138341.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 31977.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 12322982.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 19931909.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2115134.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 14159634.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 1451807.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 11435341.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 29351763.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 4580929.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 138598.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 17271602.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 556298.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 376139.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 138225.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 438254.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 10319862.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 169353.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 129302.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 448286.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 1036682.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 320275.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 1,
+       "monto": 9516597.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 21913217.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 1,
+       "monto": 19973008.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 15030212.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    },
+    {
+     "periodo": "202410",
+     "entidades": [
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL",
+       "situacion": 1,
+       "monto": 5594096.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "Banco GGAL SA",
+       "situacion": 1,
+       "monto": 39944822.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA NACION ARGENTINA",
+       "situacion": 1,
+       "monto": 51664443.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CMF S.A.",
+       "situacion": 1,
+       "monto": 3802169.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "AMERICAN EXPRESS ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 42277.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+       "situacion": 1,
+       "monto": 11818906.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SUPERVIELLE S.A.",
+       "situacion": 1,
+       "monto": 27937961.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SANTA CRUZ S.A.",
+       "situacion": 1,
+       "monto": 2064408.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "CITIBANK N.A.",
+       "situacion": 1,
+       "monto": 510.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "REBA COMPAÑIA FINANCIERA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BBVA ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 7899231.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA PAMPA SA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DEL CHUBUT S.A.",
+       "situacion": 1,
+       "monto": 1409060.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE LA CIUDAD DE BUENOS AIRES",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SAN JUAN S.A.",
+       "situacion": 1,
+       "monto": 9269093.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA",
+       "situacion": 1,
+       "monto": 27825699.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO SANTANDER ARGENTINA S.A.",
+       "situacion": 1,
+       "monto": 4655324.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+       "situacion": 1,
+       "monto": 185742.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "NUEVO BANCO DE ENTRE RÍOS S.A.",
+       "situacion": 1,
+       "monto": 12209866.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE FORMOSA S.A.",
+       "situacion": 1,
+       "monto": 543484.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+       "situacion": 1,
+       "monto": 16252961.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "ROMBO COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 151218.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO COMAFI SOCIEDAD ANONIMA",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE CORRIENTES S.A.",
+       "situacion": 1,
+       "monto": 412074.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO BMA S.A.U.",
+       "situacion": 1,
+       "monto": 207859.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE VALORES S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MACRO S.A.",
+       "situacion": 1,
+       "monto": 9810205.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BACS BANCO DE CREDITO Y SECURITIZACION S.A.",
+       "situacion": 1,
+       "monto": 1098519.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DINO S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.",
+       "situacion": 1,
+       "monto": 187380.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO CREDICOOP COOPERATIVO LIMITADO",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MARIVA S.A.",
+       "situacion": 1,
+       "monto": 126618.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO MUNICIPAL DE ROSARIO",
+       "situacion": 1,
+       "monto": 434279.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "YPF S.A.",
+       "situacion": 1,
+       "monto": 986491.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BIBANK S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO HIPOTECARIO S.A.",
+       "situacion": 1,
+       "monto": 146.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES SAU",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO INDUSTRIAL S.A.",
+       "situacion": 1,
+       "monto": 2558721.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO PATAGONIA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)",
+       "situacion": 1,
+       "monto": 15009588.0,
+       "enRevision": false,
+       "procesoJud": false
+      },
+      {
+       "entidad": "BANCO ROELA S.A.",
+       "situacion": 0,
+       "monto": 0.0,
+       "enRevision": false,
+       "procesoJud": false
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "chequesRechazados": {
+  "status": 200,
+  "results": {
+   "identificacion": 30639453738,
+   "denominacion": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+   "causales": [
+    {
+     "causal": "DEFECTOS FORMALES",
+     "entidades": [
+      {
+       "entidad": 1,
+       "detalle": [
+        {
+         "nroCheque": 84289426,
+         "fechaRechazo": "2025-02-13",
+         "monto": 1714949.23,
+         "fechaPago": null,
+         "fechaPagoMulta": "2025-02-13",
+         "estadoMulta": null,
+         "ctaPersonal": false,
+         "denomJuridica": null,
+         "enRevision": false,
+         "procesoJud": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

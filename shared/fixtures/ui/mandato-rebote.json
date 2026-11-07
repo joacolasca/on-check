@@ -1,0 +1,10 @@
+{
+  "chequeId": "0xchequecenco-1",
+  "perdida": "4890000",
+  "emisorBloqueado": "Cencosud",
+  "replanificar": [
+    "telecom-1"
+  ],
+  "explicacion": "El cheque de Cencosud rebotó (simulado): el fondo perdió $ 4.890.000, bajó lo invertido y el agente dejó de comprarle a ese emisor. Telecom había quedado afuera por presupuesto: ahora entra.",
+  "tx": "0x5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e"
+}

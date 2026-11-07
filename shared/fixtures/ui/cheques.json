@@ -1,0 +1,171 @@
+[
+  {
+    "id": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "libradorHashCorto": "0x9f3a…c41e",
+    "nominal": "10000000",
+    "precioCompra": "9500000",
+    "vencimiento": "2027-01-05",
+    "puntaje": 95,
+    "banda": "A",
+    "tasaTnaBps": 2600,
+    "estado": "Paid",
+    "explicacion": "Dato de ejemplo para desarrollo: sin atrasos en la Central de Deudores; la tasa es la de referencia más el spread de la banda.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "url": "https://sepolia.basescan.org/tx/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "url": "https://sepolia.basescan.org/tx/0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Tecnología y comercio electrónico",
+    "emisorNombre": "MERCADOLIBRE S.R.L.",
+    "garantia": null
+  },
+  {
+    "id": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "libradorHashCorto": "0x4b71…08d2",
+    "nominal": "9800000",
+    "precioCompra": "9500000",
+    "vencimiento": "2027-01-05",
+    "puntaje": 90,
+    "banda": "A",
+    "tasaTnaBps": 2700,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo para desarrollo: sin atrasos en la Central de Deudores; la tasa es la de referencia más el spread de la banda.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "url": "https://sepolia.basescan.org/tx/0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+        "url": "https://sepolia.basescan.org/tx/0xBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+      }
+    ],
+    "tipo": "pagare",
+    "industria": "Energía y servicios públicos",
+    "emisorNombre": "PAMPA ENERGIA S A",
+    "garantia": {
+      "tipo": "energia",
+      "coberturaBps": 11500
+    }
+  },
+  {
+    "id": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "libradorHashCorto": "0x77c1…0e3a",
+    "nominal": "4500000",
+    "precioCompra": "4437000",
+    "vencimiento": "2027-01-05",
+    "puntaje": 88,
+    "banda": "A",
+    "tasaTnaBps": 2600,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo para desarrollo: sin atrasos en la Central de Deudores; la tasa es la de referencia más el spread de la banda.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "url": "https://sepolia.basescan.org/tx/0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "url": "https://sepolia.basescan.org/tx/0xCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Comercio minorista y consumo masivo",
+    "emisorNombre": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA",
+    "garantia": null
+  },
+  {
+    "id": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "libradorHashCorto": "0xc2d9…71ab",
+    "nominal": "8200000",
+    "precioCompra": "8000000",
+    "vencimiento": "2027-01-05",
+    "puntaje": 76,
+    "banda": "B",
+    "tasaTnaBps": 3100,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo para desarrollo: sin atrasos en la Central de Deudores; la tasa es la de referencia más el spread de la banda.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "url": "https://sepolia.basescan.org/tx/0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+        "url": "https://sepolia.basescan.org/tx/0xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"
+      }
+    ],
+    "tipo": "pagare",
+    "industria": "Industria manufacturera",
+    "emisorNombre": null,
+    "garantia": {
+      "tipo": "vehiculo",
+      "coberturaBps": 14000
+    }
+  },
+  {
+    "id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "libradorHashCorto": "0x31aa…f0b2",
+    "nominal": "7200000",
+    "precioCompra": "6900000",
+    "vencimiento": "2027-01-05",
+    "puntaje": 80,
+    "banda": "A",
+    "tasaTnaBps": 2600,
+    "estado": "Rejected",
+    "explicacion": "Dato de ejemplo para desarrollo: sin atrasos en la Central de Deudores; la tasa es la de referencia más el spread de la banda.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "url": "https://sepolia.basescan.org/tx/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+        "url": "https://sepolia.basescan.org/tx/0xEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Comercio minorista y consumo masivo",
+    "emisorNombre": "CENCOSUD S A",
+    "garantia": null
+  },
+  {
+    "id": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "libradorHashCorto": "0x8e44…2c19",
+    "nominal": "3000000",
+    "precioCompra": "2900000",
+    "vencimiento": "2027-01-05",
+    "puntaje": 70,
+    "banda": "B",
+    "tasaTnaBps": 3000,
+    "estado": "Pending",
+    "explicacion": "Dato de ejemplo para desarrollo: sin atrasos en la Central de Deudores; la tasa es la de referencia más el spread de la banda.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "url": "https://sepolia.basescan.org/tx/0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Telecomunicaciones",
+    "emisorNombre": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+    "garantia": null
+  }
+]

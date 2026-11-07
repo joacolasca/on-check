@@ -1,0 +1,15 @@
+[
+  { "id": 0, "nombre": "Sin clasificar" },
+  { "id": 1, "nombre": "Comercio minorista y consumo masivo" },
+  { "id": 2, "nombre": "Tecnología y comercio electrónico" },
+  { "id": 3, "nombre": "Telecomunicaciones" },
+  { "id": 4, "nombre": "Energía y servicios públicos" },
+  { "id": 5, "nombre": "Petróleo, gas y minería" },
+  { "id": 6, "nombre": "Agro y alimentos" },
+  { "id": 7, "nombre": "Industria manufacturera" },
+  { "id": 8, "nombre": "Construcción e inmobiliario" },
+  { "id": 9, "nombre": "Transporte y logística" },
+  { "id": 10, "nombre": "Salud y bienestar" },
+  { "id": 11, "nombre": "Servicios financieros" },
+  { "id": 12, "nombre": "Otros servicios" }
+]

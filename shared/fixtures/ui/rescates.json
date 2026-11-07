@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "duenio": "0x0000000000000000000000000000000000000a01",
+    "cuotapartes": "5000",
+    "solicitadoEn": "2026-11-06T13:10:00.000Z",
+    "liquidableDesde": "2026-11-07T03:00:00.000Z",
+    "estado": "Pendiente",
+    "monto": null
+  },
+  {
+    "id": "2",
+    "duenio": "0x0000000000000000000000000000000000000a01",
+    "cuotapartes": "1000",
+    "solicitadoEn": "2026-11-04T15:30:00.000Z",
+    "liquidableDesde": "2026-11-05T03:00:00.000Z",
+    "estado": "Liquidado",
+    "monto": "1004820"
+  },
+  {
+    "id": "3",
+    "duenio": "0x0000000000000000000000000000000000000a02",
+    "cuotapartes": "2500",
+    "solicitadoEn": "2026-11-06T19:00:00.000Z",
+    "liquidableDesde": "2026-11-10T03:00:00.000Z",
+    "estado": "Pendiente",
+    "monto": null
+  }
+]

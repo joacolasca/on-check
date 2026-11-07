@@ -1,0 +1,86 @@
+{
+  "tipo": "pagare",
+  "industria": {
+    "id": 4,
+    "nombre": "Energía y servicios públicos",
+    "fundamento": "Dato de ejemplo: el emisor figura en la Central de Deudores del BCRA y el balance cargado muestra ventas de generación eléctrica.",
+    "fuentes": [
+      "BCRA",
+      "balance cargado"
+    ],
+    "confianza": "media"
+  },
+  "garantia": {
+    "tipo": "energia",
+    "descripcion": "Turbina de 5 MW, número de serie de ejemplo",
+    "valorDeclarado": "12000000",
+    "haircutBps": 4500,
+    "valorAjustado": "6600000",
+    "coberturaBps": 6735,
+    "liquidez": "baja",
+    "riesgos": [
+      "Mercado secundario reducido para equipos de este porte",
+      "Depreciación por horas de uso"
+    ],
+    "documentosPendientes": [
+      "Informe de dominio",
+      "Tasación independiente",
+      "Póliza de seguro vigente",
+      "Certificado de libre de gravámenes"
+    ],
+    "observaciones": "Dato de ejemplo. El valor declarado no fue verificado por el fondo; el descuento es un supuesto a validar.",
+    "analizadoPor": "agente",
+    "garantiaHash": "0xabababababababababababababababababababababababababababababababab"
+  },
+  "mav": {
+    "fuente": "MAV (simulado)",
+    "operaciones": 14,
+    "tasaPromedioTnaBps": 3050,
+    "plazoPromedioDias": 62,
+    "ultimaOperacion": "2026-10-28",
+    "nota": "Datos simulados para la demo: no hay integración real con el MAV."
+  },
+  "decisionPM": {
+    "decision": "aprobar_con_condiciones",
+    "condiciones": [
+      "Firmar la prenda sobre la turbina antes del vencimiento",
+      "Presentar la tasación independiente en 15 días"
+    ],
+    "resumen": "El emisor tiene situación normal y la garantía cubre el 67 % del nominal. Se aprueba si se instrumenta la prenda."
+  },
+  "id": "0x1212121212121212121212121212121212121212121212121212121212121212",
+  "libradorHash": "0x3434343434343434343434343434343434343434343434343434343434343434",
+  "input": {
+    "cuit": "30526552659",
+    "nominal": "9800000",
+    "vencimiento": "2027-01-05",
+    "pyme": "0x0000000000000000000000000000000000000001",
+    "tipo": "pagare"
+  },
+  "scoring": {
+    "cuit": "30526552659",
+    "denominacion": "PAMPA ENERGIA S A",
+    "puntaje": 90,
+    "banda": "A",
+    "situacionPeor": 1,
+    "chequesRechazadosImpagos": 0,
+    "refinanciaciones": false,
+    "deudaCreciente": false,
+    "ajustes": [
+      {
+        "motivo": "Situación 1 en todas las entidades",
+        "puntos": 0
+      }
+    ],
+    "fuente": "bcra-cache",
+    "consultadoEn": "2026-11-06T12:00:00.000Z"
+  },
+  "dias": 60,
+  "tasaTnaBps": 2700,
+  "descuento": "300000",
+  "precioCompra": "9500000",
+  "aprobada": true,
+  "motivoRechazo": null,
+  "explicacion": "Dato de ejemplo: el suscriptor no registra atrasos. La tasa es la de referencia más el spread de la banda A.",
+  "cotizacionHash": "0x5656565656565656565656565656565656565656565656565656565656565656"
+}

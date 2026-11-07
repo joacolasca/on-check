@@ -1,0 +1,105 @@
+{
+  "_nota": "Bandeja de la demo del Mandato (docs/MANDATO-SPEC.md). Los CUIT son los ya verificados de shared/fixtures/cheques-demo.json (nunca clientes de Facu). Los rebotes y las garantías son SIMULADOS (activos de ejemplo de la demo). Precios de referencia con el pool de $ 100.000.000 y la tasa del 3-11-2026: MercadoLibre $ 8,64 M + $ 3,88 M (12,5 % del patrimonio: el contrato dice que no al segundo), Coto $ 5,89 M, Cencosud $ 4,80 M, Pampa $ 7,51 M, Loma Negra $ 5,76 M, Telecom $ 2,82 M: en total ~$ 35,4 M comprados de un presupuesto de $ 40 M. Cobertura de las garantías (valor declarado menos descuento, sobre el nominal): turbina 16.000.000 con 45 % = 110 %; camión 9.000.000 con 30 % = 105 %; terreno 3.500.000 con 35 % = 75,8 %. Ajuste respecto de la spec: topeEmisorBps = 3500 (la spec decía 1500, pero el tope es sobre el presupuesto de $ 40 M, o sea $ 6 M, y no dejaría pasar ni el primer cheque de MercadoLibre de $ 8,64 M; con 35 % el tope es $ 14 M: el mandato deja pasar al segundo cheque y lo frena el contrato, que tiene el 10 % del patrimonio).",
+  "mandatoPorDefecto": {
+    "presupuesto": "40000000",
+    "bandaMinima": "B",
+    "topeEmisorBps": 3500,
+    "plazoMaxDias": 90,
+    "tipos": ["cheque", "pagare"],
+    "coberturaMinBps": 10000,
+    "aprobacionSobre": null
+  },
+  "activos": [
+    {
+      "id": "mercadolibre-1",
+      "cuit": "30703088534",
+      "nombre": "MercadoLibre",
+      "tipo": "cheque",
+      "nominal": "9000000",
+      "dias": 60,
+      "nota": "Cumple todo: se compra (8,6 % del patrimonio)."
+    },
+    {
+      "id": "mercadolibre-2",
+      "cuit": "30703088534",
+      "nombre": "MercadoLibre",
+      "tipo": "cheque",
+      "nominal": "4000000",
+      "dias": 45,
+      "nota": "El mandato lo deja pasar, pero con el anterior el emisor llega al 12,5 % del patrimonio: el contrato (tope del 10 %) lo rechaza."
+    },
+    {
+      "id": "coto-1",
+      "cuit": "30548083156",
+      "nombre": "Coto",
+      "tipo": "cheque",
+      "nominal": "6000000",
+      "dias": 30,
+      "nota": "Cumple todo: se compra."
+    },
+    {
+      "id": "cencosud-1",
+      "cuit": "30590360763",
+      "nombre": "Cencosud",
+      "tipo": "cheque",
+      "nominal": "5000000",
+      "dias": 60,
+      "reboteSimulado": true,
+      "nota": "Se compra y después rebota (rechazo SIMULADO por el oráculo de la demo)."
+    },
+    {
+      "id": "pampa-pagare-turbina",
+      "cuit": "30526552659",
+      "nombre": "Pampa Energía",
+      "tipo": "pagare",
+      "nominal": "8000000",
+      "dias": 90,
+      "garantia": {
+        "tipo": "energia",
+        "descripcion": "Turbina eólica de 2 MW (activo de ejemplo de la demo, simulado)",
+        "valorDeclarado": "16000000",
+        "documentos": ["Factura de compra de la turbina", "Tasación del vendedor"]
+      },
+      "nota": "Cobertura del 110 % con el descuento del 45 %: cumple y se compra."
+    },
+    {
+      "id": "lomanegra-pagare-camion",
+      "cuit": "30500530851",
+      "nombre": "Loma Negra",
+      "tipo": "pagare",
+      "nominal": "6000000",
+      "dias": 60,
+      "garantia": {
+        "tipo": "vehiculo",
+        "descripcion": "Camión de carga usado (activo de ejemplo de la demo, simulado)",
+        "valorDeclarado": "9000000",
+        "documentos": ["Título del automotor (ejemplo)"]
+      },
+      "nota": "Cobertura del 105 % con el descuento del 30 %: cumple y se compra."
+    },
+    {
+      "id": "telecom-1",
+      "cuit": "30639453738",
+      "nombre": "Telecom",
+      "tipo": "cheque",
+      "nominal": "3000000",
+      "dias": 90,
+      "nota": "Cumple todo: se compra (un rechazo real de febrero de 2025 queda fuera de la ventana de 12 meses)."
+    },
+    {
+      "id": "pampa-pagare-terreno",
+      "cuit": "30526552659",
+      "nombre": "Pampa Energía",
+      "tipo": "pagare",
+      "nominal": "3000000",
+      "dias": 60,
+      "garantia": {
+        "tipo": "terreno",
+        "descripcion": "Terreno sin mejoras (activo de ejemplo de la demo, simulado)",
+        "valorDeclarado": "3500000",
+        "documentos": ["Plano de mensura (ejemplo)"]
+      },
+      "nota": "Cobertura del 75,8 % con el descuento del 35 %: queda fuera del mandato por la regla de cobertura."
+    }
+  ]
+}

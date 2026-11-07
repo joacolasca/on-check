@@ -1,0 +1,13 @@
+{
+  "_nota": "SIMULACIÓN. No es información del MAV real: son datos de demostración inventados (plausibles) para los emisores de shared/fixtures/cheques-demo.json (y los dos suplentes). Nunca se presentan como reales: en pantalla y en los textos del gestor se rotulan 'MAV (simulado)'. Creado el 6-11-2026 por pedido de la v2 (docs/V2-SPEC.md).",
+  "simulado": true,
+  "fuente": "MAV (simulado)",
+  "emisores": {
+    "30703088534": { "nombre": "MERCADOLIBRE S.R.L.", "operaciones": 38, "tasaPromedioTnaBps": 2650, "plazoPromedioDias": 52, "ultimaOperacion": "2026-10-29" },
+    "30548083156": { "nombre": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA", "operaciones": 24, "tasaPromedioTnaBps": 2780, "plazoPromedioDias": 41, "ultimaOperacion": "2026-10-27" },
+    "30590360763": { "nombre": "CENCOSUD S A", "operaciones": 19, "tasaPromedioTnaBps": 2820, "plazoPromedioDias": 58, "ultimaOperacion": "2026-10-22" },
+    "30639453738": { "nombre": "TELECOM ARGENTINA SOCIEDAD ANONIMA", "operaciones": 11, "tasaPromedioTnaBps": 3010, "plazoPromedioDias": 74, "ultimaOperacion": "2026-10-15" },
+    "30526552659": { "nombre": "PAMPA ENERGIA S A", "operaciones": 9, "tasaPromedioTnaBps": 2900, "plazoPromedioDias": 66, "ultimaOperacion": "2026-10-08" },
+    "30500530851": { "nombre": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.", "operaciones": 7, "tasaPromedioTnaBps": 2950, "plazoPromedioDias": 70, "ultimaOperacion": "2026-09-30" }
+  }
+}

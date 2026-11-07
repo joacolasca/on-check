@@ -1,0 +1,6 @@
+{
+  "_nota": "DATOS FALSOS para desarrollo. Rama los reemplaza por la API real sin cambiar la forma. La dirección es la real (docs.twin.finance, verificada onchain 2-11-2026); el supply es un valor fijo.",
+  "totalSupply": "1000000000000000000000000",
+  "fuente": "base-mainnet",
+  "direccion": "0xf016413834E6D1A14F3D628B11D6Ef725a6bdbDD"
+}

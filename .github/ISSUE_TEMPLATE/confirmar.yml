@@ -1,0 +1,19 @@
+name: Dato por confirmar
+description: Algo que falta y que no se puede inventar (cifra, CUIT, regla, decisión).
+labels: ["confirmar"]
+body:
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: Qué hay que confirmar
+    validations:
+      required: true
+  - type: input
+    id: quien
+    attributes:
+      label: Quién lo confirma
+      placeholder: Facu, Joaquín, organizadores...
+  - type: textarea
+    id: bloquea
+    attributes:
+      label: Qué bloquea y qué valor por defecto usamos mientras tanto

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "libradorHashCorto": "0x9f3a…c41e",
+    "nominal": "9000000",
+    "precioCompra": "8614454.8",
+    "vencimiento": "2027-01-05",
+    "puntaje": 95,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Cheque de MERCADOLIBRE S.R.L..",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xa1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+        "url": "https://sepolia.basescan.org/tx/0xa1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xa2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2",
+        "url": "https://sepolia.basescan.org/tx/0xa2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2a2"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Tecnología y comercio electrónico",
+    "emisorNombre": "MERCADOLIBRE S.R.L.",
+    "garantia": null
+  },
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000002",
+    "libradorHashCorto": "0x4b71…08d2",
+    "nominal": "6000000",
+    "precioCompra": "5871484.94",
+    "vencimiento": "2026-12-06",
+    "puntaje": 88,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Cheque de COTO CENTRO INTEGRAL DE COMERCIALIZACION SA.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xb1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1",
+        "url": "https://sepolia.basescan.org/tx/0xb1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xb2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2",
+        "url": "https://sepolia.basescan.org/tx/0xb2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Comercio minorista y consumo masivo",
+    "emisorNombre": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA",
+    "garantia": null
+  },
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000003",
+    "libradorHashCorto": "0xa6c4…1f73",
+    "nominal": "8000000",
+    "precioCompra": "7485939.73",
+    "vencimiento": "2027-02-04",
+    "puntaje": 90,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Pagaré de PAMPA ENERGIA S A.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xc1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1",
+        "url": "https://sepolia.basescan.org/tx/0xc1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xc2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2",
+        "url": "https://sepolia.basescan.org/tx/0xc2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2c2"
+      }
+    ],
+    "tipo": "pagare",
+    "industria": "Energía y servicios públicos",
+    "emisorNombre": "PAMPA ENERGIA S A",
+    "garantia": {
+      "tipo": "energia",
+      "coberturaBps": 11000
+    }
+  },
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000004",
+    "libradorHashCorto": "0x31ee…9a0c",
+    "nominal": "6000000",
+    "precioCompra": "5742969.87",
+    "vencimiento": "2027-01-05",
+    "puntaje": 90,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Funded",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Pagaré de LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A..",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xd1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1",
+        "url": "https://sepolia.basescan.org/tx/0xd1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1d1"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xd2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2",
+        "url": "https://sepolia.basescan.org/tx/0xd2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2"
+      }
+    ],
+    "tipo": "pagare",
+    "industria": "Industria manufacturera",
+    "emisorNombre": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.",
+    "garantia": {
+      "tipo": "vehiculo",
+      "coberturaBps": 10500
+    }
+  },
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000005",
+    "libradorHashCorto": "0x7d20…e5b9",
+    "nominal": "5000000",
+    "precioCompra": "4785808.22",
+    "vencimiento": "2027-01-05",
+    "puntaje": 88,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Rejected",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Cheque de CENCOSUD S A.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xe1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1",
+        "url": "https://sepolia.basescan.org/tx/0xe1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1e1"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xe2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2",
+        "url": "https://sepolia.basescan.org/tx/0xe2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2"
+      },
+      {
+        "tipo": "rechazado",
+        "hash": "0xe3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3",
+        "url": "https://sepolia.basescan.org/tx/0xe3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3e3"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Comercio minorista y consumo masivo",
+    "emisorNombre": "CENCOSUD S A",
+    "garantia": null
+  },
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000006",
+    "libradorHashCorto": "0xc58b…2d64",
+    "nominal": "3000000",
+    "precioCompra": "2807227.4",
+    "vencimiento": "2027-02-04",
+    "puntaje": 85,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Pending",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Cheque de TELECOM ARGENTINA SOCIEDAD ANONIMA.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xf1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1",
+        "url": "https://sepolia.basescan.org/tx/0xf1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1f1"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Telecomunicaciones",
+    "emisorNombre": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+    "garantia": null
+  },
+  {
+    "id": "0x0000000000000000000000000000000000000000000000000000000000000007",
+    "libradorHashCorto": "0x4b71…08d2",
+    "nominal": "2000000",
+    "precioCompra": "1957161.65",
+    "vencimiento": "2026-12-06",
+    "puntaje": 88,
+    "banda": "A",
+    "tasaTnaBps": 2606,
+    "estado": "Paid",
+    "explicacion": "Dato de ejemplo (mock): banda A, tasa de referencia más 2 puntos. Cheque de COTO CENTRO INTEGRAL DE COMERCIALIZACION SA.",
+    "txs": [
+      {
+        "tipo": "registrar",
+        "hash": "0xg1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1",
+        "url": "https://sepolia.basescan.org/tx/0xg1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1g1"
+      },
+      {
+        "tipo": "fondear",
+        "hash": "0xg2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2",
+        "url": "https://sepolia.basescan.org/tx/0xg2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2g2"
+      },
+      {
+        "tipo": "pagado",
+        "hash": "0xg3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3",
+        "url": "https://sepolia.basescan.org/tx/0xg3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3g3"
+      }
+    ],
+    "tipo": "cheque",
+    "industria": "Comercio minorista y consumo masivo",
+    "emisorNombre": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA",
+    "garantia": null
+  }
+]

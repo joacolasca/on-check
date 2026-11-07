@@ -1,0 +1,96 @@
+{
+  "activos": [
+    {
+      "id": "ml-1",
+      "cuit": "30703088534",
+      "nombre": "MercadoLibre",
+      "tipo": "cheque",
+      "nominal": "9000000",
+      "dias": 60
+    },
+    {
+      "id": "ml-2",
+      "cuit": "30703088534",
+      "nombre": "MercadoLibre",
+      "tipo": "cheque",
+      "nominal": "4000000",
+      "dias": 45
+    },
+    {
+      "id": "coto-1",
+      "cuit": "30548083156",
+      "nombre": "Coto",
+      "tipo": "cheque",
+      "nominal": "6000000",
+      "dias": 30
+    },
+    {
+      "id": "cenco-1",
+      "cuit": "30590360763",
+      "nombre": "Cencosud",
+      "tipo": "cheque",
+      "nominal": "5000000",
+      "dias": 60,
+      "reboteSimulado": true
+    },
+    {
+      "id": "pampa-1",
+      "cuit": "30526552659",
+      "nombre": "Pampa Energía",
+      "tipo": "pagare",
+      "nominal": "8000000",
+      "dias": 90,
+      "garantia": {
+        "tipo": "energia",
+        "descripcion": "Turbina eólica (ejemplo, simulado)",
+        "valorDeclarado": "16000000"
+      }
+    },
+    {
+      "id": "loma-1",
+      "cuit": "30500530851",
+      "nombre": "Loma Negra",
+      "tipo": "pagare",
+      "nominal": "6000000",
+      "dias": 60,
+      "garantia": {
+        "tipo": "vehiculo",
+        "descripcion": "Camión (ejemplo, simulado)",
+        "valorDeclarado": "9000000"
+      }
+    },
+    {
+      "id": "telecom-1",
+      "cuit": "30639453738",
+      "nombre": "Telecom",
+      "tipo": "cheque",
+      "nominal": "9000000",
+      "dias": 90
+    },
+    {
+      "id": "pampa-2",
+      "cuit": "30526552659",
+      "nombre": "Pampa Energía",
+      "tipo": "pagare",
+      "nominal": "3000000",
+      "dias": 60,
+      "garantia": {
+        "tipo": "terreno",
+        "descripcion": "Terreno (ejemplo, simulado)",
+        "valorDeclarado": "2000000"
+      }
+    }
+  ],
+  "mandatoPorDefecto": {
+    "presupuesto": "40000000",
+    "bandaMinima": "B",
+    "topeEmisorBps": 1500,
+    "plazoMaxDias": 90,
+    "tipos": [
+      "cheque",
+      "pagare"
+    ],
+    "coberturaMinBps": 10000,
+    "aprobacionSobre": null
+  }
+}

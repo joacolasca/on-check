@@ -1,0 +1,47 @@
+name: Tarea
+description: Un entregable de un módulo (un issue por entregable, no por cada paso chico).
+labels: ["feat"]
+body:
+  - type: dropdown
+    id: modulo
+    attributes:
+      label: Módulo
+      description: Define el dueño (ver AGENTS.md). Poné también la etiqueta del módulo a la derecha.
+      options:
+        - contracts (Rama)
+        - api (Rama)
+        - scoring (Nacho)
+        - agent (Joaquín)
+        - web (Joaquín)
+        - demo / pitch (todos)
+    validations:
+      required: true
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué hay que lograr
+      description: En una o dos oraciones. Qué queda funcionando, no cómo se hace.
+    validations:
+      required: true
+  - type: textarea
+    id: listo
+    attributes:
+      label: Está listo cuando
+      description: Lista corta y verificable (tests que pasan, ruta que responde, lo que se ve en pantalla).
+      placeholder: |
+        - [ ] ...
+        - [ ] `pnpm test`, `pnpm typecheck` y `pnpm lint` en verde
+    validations:
+      required: true
+  - type: textarea
+    id: ref
+    attributes:
+      label: Referencias y dependencias
+      description: Archivos, secciones de docs/INTERFACES.md o issues de los que depende.
+  - type: checkboxes
+    id: reglas
+    attributes:
+      label: Reglas del proyecto
+      options:
+        - label: No cambia docs/INTERFACES.md ni src/shared/types.ts, o ya lo avisé en el grupo.
+        - label: No inventa datos: lo que falta queda como TODO(confirmar).

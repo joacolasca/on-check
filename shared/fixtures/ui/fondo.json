@@ -1,0 +1,149 @@
+{
+  "totalAssets": "100000000",
+  "liquidez": "41000000",
+  "enCheques": "59000000",
+  "valorCuotaparte": "1004.82",
+  "cantidadCheques": {
+    "Pending": 1,
+    "Funded": 8,
+    "Paid": 2,
+    "Rejected": 1
+  },
+  "concentracionMaxBps": 950,
+  "rechazos": {
+    "cantidad": 1,
+    "perdida": "7200000"
+  },
+  "tirAnualizadaBps": 1180,
+  "direccionContrato": "0x0000000000000000000000000000000000000000",
+  "red": "base-sepolia",
+  "politica": {
+    "maxEmisorBps": 1000,
+    "maxIndustriaBps": 2500,
+    "liquidezMinBps": 1500,
+    "objetivoTnaBps": 4000,
+    "comisionAnualBps": 300,
+    "precioInicialCuotaparte": "1000",
+    "minCuotapartes": "1000",
+    "rescateHorasHabiles": 24,
+    "rescateCorteHora": 15
+  },
+  "composicion": {
+    "porEmisor": [
+      {
+        "clave": "0x1111",
+        "etiqueta": "PAMPA ENERGIA S A",
+        "monto": "9500000",
+        "bps": 1610
+      },
+      {
+        "clave": "0x2222",
+        "etiqueta": "MERCADOLIBRE S.R.L.",
+        "monto": "9000000",
+        "bps": 1525
+      },
+      {
+        "clave": "0x3333",
+        "etiqueta": "COTO CENTRO INTEGRAL DE COMERCIALIZACION SA",
+        "monto": "8500000",
+        "bps": 1440
+      },
+      {
+        "clave": "0x4444",
+        "etiqueta": "LOMA NEGRA CIA INDUSTRIAL ARGENTINA S. A.",
+        "monto": "8000000",
+        "bps": 1355
+      },
+      {
+        "clave": "0x5555",
+        "etiqueta": "CENCOSUD S A",
+        "monto": "7200000",
+        "bps": 1220
+      },
+      {
+        "clave": "0x6666",
+        "etiqueta": "TELECOM ARGENTINA SOCIEDAD ANONIMA",
+        "monto": "6800000",
+        "bps": 1152
+      },
+      {
+        "clave": "0x7777",
+        "etiqueta": "0x71ab…e902",
+        "monto": "4500000",
+        "bps": 762
+      },
+      {
+        "clave": "0x8888",
+        "etiqueta": "0x93c0…17fd",
+        "monto": "3000000",
+        "bps": 508
+      },
+      {
+        "clave": "0x9999",
+        "etiqueta": "0xb4d2…5a68",
+        "monto": "2500000",
+        "bps": 423
+      }
+    ],
+    "porIndustria": [
+      {
+        "clave": "1",
+        "etiqueta": "Comercio minorista y consumo masivo",
+        "monto": "15700000",
+        "bps": 2661
+      },
+      {
+        "clave": "2",
+        "etiqueta": "Tecnología y comercio electrónico",
+        "monto": "13500000",
+        "bps": 2288
+      },
+      {
+        "clave": "4",
+        "etiqueta": "Energía y servicios públicos",
+        "monto": "12500000",
+        "bps": 2118
+      },
+      {
+        "clave": "7",
+        "etiqueta": "Industria manufacturera",
+        "monto": "8000000",
+        "bps": 1355
+      },
+      {
+        "clave": "3",
+        "etiqueta": "Telecomunicaciones",
+        "monto": "6800000",
+        "bps": 1152
+      },
+      {
+        "clave": "8",
+        "etiqueta": "Construcción e inmobiliario",
+        "monto": "2500000",
+        "bps": 423
+      }
+    ],
+    "porTipo": [
+      {
+        "clave": "cheque",
+        "etiqueta": "Cheques",
+        "monto": "44000000",
+        "bps": 7457
+      },
+      {
+        "clave": "pagare",
+        "etiqueta": "Pagarés",
+        "monto": "15000000",
+        "bps": 2542
+      }
+    ]
+  },
+  "liquidezBps": 4100,
+  "cuotapartesEmitidas": "99521.4",
+  "comision": {
+    "devengadaCuotapartes": "12.35",
+    "devengadaPesos": "12409.2"
+  },
+  "rescatesPendientes": 2,
+  "modoDemo": false
+}

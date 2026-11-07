@@ -1,0 +1,707 @@
+{
+  "ml-1": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "MercadoLibre: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "ml-1",
+      "resultado": "comprar",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Cumple todas las reglas."
+    },
+    "compra": {
+      "activoId": "ml-1",
+      "nombre": "MercadoLibre",
+      "libradorHash": "0xml-1",
+      "chequeId": "0xchequeml-1",
+      "nominal": "9000000",
+      "precioCompra": "8614000",
+      "tx": "0x6d6c2d31abababababababababababababababababababababababababababab",
+      "estado": "Funded"
+    },
+    "rechazoContrato": null
+  },
+  "ml-2": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "MercadoLibre: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "ml-2",
+      "resultado": "comprar",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Cumple todas las reglas de tu mandato."
+    },
+    "compra": null,
+    "rechazoContrato": {
+      "codigo": "CONCENTRACION_EXCEDIDA",
+      "mensaje": "Sumado a lo que ya tiene el fondo, superaría el 10 % del patrimonio en un mismo emisor."
+    }
+  },
+  "coto-1": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "Coto: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "coto-1",
+      "resultado": "comprar",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Cumple todas las reglas."
+    },
+    "compra": {
+      "activoId": "coto-1",
+      "nombre": "Coto",
+      "libradorHash": "0xcoto-1",
+      "chequeId": "0xchequecoto-1",
+      "nominal": "6000000",
+      "precioCompra": "5890000",
+      "tx": "0x636f746f2d31abababababababababababababababababababababababababab",
+      "estado": "Funded"
+    },
+    "rechazoContrato": null
+  },
+  "cenco-1": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "Cencosud: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "cenco-1",
+      "resultado": "comprar",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Cumple todas las reglas."
+    },
+    "compra": {
+      "activoId": "cenco-1",
+      "nombre": "Cencosud",
+      "libradorHash": "0xcenco-1",
+      "chequeId": "0xchequecenco-1",
+      "nominal": "5000000",
+      "precioCompra": "4890000",
+      "tx": "0x63656e636f2d31ababababababababababababababababababababababababab",
+      "estado": "Funded"
+    },
+    "rechazoContrato": null
+  },
+  "pampa-1": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "Pampa Energía: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "pampa-1",
+      "resultado": "comprar",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Cumple todas las reglas, con garantía que cubre el 200 % del nominal."
+    },
+    "compra": {
+      "activoId": "pampa-1",
+      "nombre": "Pampa Energía",
+      "libradorHash": "0xpampa-1",
+      "chequeId": "0xchequepampa-1",
+      "nominal": "8000000",
+      "precioCompra": "7480000",
+      "tx": "0x70616d70612d31ababababababababababababababababababababababababab",
+      "estado": "Funded"
+    },
+    "rechazoContrato": null
+  },
+  "loma-1": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "Loma Negra: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "loma-1",
+      "resultado": "comprar",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Cumple todas las reglas."
+    },
+    "compra": {
+      "activoId": "loma-1",
+      "nombre": "Loma Negra",
+      "libradorHash": "0xloma-1",
+      "chequeId": "0xchequeloma-1",
+      "nominal": "6000000",
+      "precioCompra": "5700000",
+      "tx": "0x6c6f6d612d31abababababababababababababababababababababababababab",
+      "estado": "Funded"
+    },
+    "rechazoContrato": null
+  },
+  "telecom-1": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "Telecom: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "telecom-1",
+      "resultado": "omitir",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": true,
+          "mensaje": "No hace falta garantía para un cheque."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": true,
+          "mensaje": "Entra dentro del 15 % por emisor."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": false,
+          "mensaje": "El precio de $ 8.500.000 es mayor al disponible: quedan $ 7.426.000."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Omitido: no entra en el presupuesto disponible."
+    },
+    "compra": {
+      "activoId": "telecom-1",
+      "nombre": "Telecom",
+      "libradorHash": "0xtelecom-1",
+      "chequeId": "0xchequetelecom-1",
+      "nominal": "9000000",
+      "precioCompra": "8500000",
+      "tx": "0x74656c65636f6d2d31ababababababababababababababababababababababab",
+      "estado": "Funded"
+    },
+    "rechazoContrato": null
+  },
+  "pampa-2": {
+    "pasos": [
+      {
+        "n": 1,
+        "tipo": "herramienta",
+        "titulo": "Consulto el BCRA",
+        "detalle": "Pampa Energía: situación 1, sin cheques rechazados en 12 meses.",
+        "herramienta": "consultar_bcra"
+      },
+      {
+        "n": 2,
+        "tipo": "herramienta",
+        "titulo": "Reviso la cartera actual",
+        "detalle": "Veo la exposición por emisor y la liquidez del fondo.",
+        "herramienta": "ver_cartera_actual"
+      },
+      {
+        "n": 3,
+        "tipo": "conclusion",
+        "titulo": "Cumple las reglas del fondo",
+        "detalle": ""
+      }
+    ],
+    "evaluacion": {
+      "activoId": "pampa-2",
+      "resultado": "omitir",
+      "razones": [
+        {
+          "regla": "tipo",
+          "cumple": true,
+          "mensaje": "Instrumento permitido."
+        },
+        {
+          "regla": "plazo",
+          "cumple": true,
+          "mensaje": "Vence dentro del plazo máximo."
+        },
+        {
+          "regla": "cotizacion",
+          "cumple": true,
+          "mensaje": "La cotización del fondo fue aprobada."
+        },
+        {
+          "regla": "banda",
+          "cumple": true,
+          "mensaje": "Banda A, igual o mejor que la mínima B."
+        },
+        {
+          "regla": "gestor",
+          "cumple": true,
+          "mensaje": "El gestor no lo rechazó."
+        },
+        {
+          "regla": "cobertura",
+          "cumple": false,
+          "mensaje": "La garantía cubre el 67 % del nominal y el mandato exige 100 %."
+        },
+        {
+          "regla": "emisor_bloqueado",
+          "cumple": true,
+          "mensaje": "El emisor no está bloqueado."
+        },
+        {
+          "regla": "tope_emisor",
+          "cumple": false,
+          "mensaje": "Pampa Energía ya suma $ 7.480.000 de $ 6.000.000 permitidos."
+        },
+        {
+          "regla": "presupuesto",
+          "cumple": true,
+          "mensaje": "Entra en el presupuesto disponible."
+        }
+      ],
+      "cotizacion": {
+        "aprobada": true
+      },
+      "resumen": "Omitido: la garantía no alcanza y supera el tope por emisor."
+    },
+    "compra": null,
+    "rechazoContrato": null
+  }
+}

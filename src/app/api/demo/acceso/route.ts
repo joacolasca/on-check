@@ -4,7 +4,7 @@ import { claveValida, crearValorSesion, cabeceraSetCookie, limitar } from "../..
 
 export const dynamic = "force-dynamic";
 
-const FOOTER = "Prototipo en testnet · sin dinero real · no es oferta pública";
+const FOOTER = "Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública";
 
 function pagina(mensaje: string | null, status = 200): Response {
   const aviso = mensaje ? `<p role="alert" style="color:#b00020">${mensaje}</p>` : "";

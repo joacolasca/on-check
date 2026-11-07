@@ -30,7 +30,7 @@ Módulos que se pueden pedir: `contracts`, `api`, `scoring`, `web`, `agent`.
 - **Solo testnet (Base Sepolia).** Nunca mainnet para escribir, nunca dinero real. Leer ARGt real en mainnet sí se puede (solo lectura).
 - **Nunca commitear claves ni `.env`, y nunca imprimirlas.** Usar `.env.example`.
 - **No inventar datos:** ni direcciones de contratos, ni CUITs, ni cifras de mercado, ni tasas. Si falta algo, marcalo `TODO(confirmar)` y avisá.
-- **Nunca escribir "ARGt rinde" ni "rendimiento garantizado"** en UI, textos ni código. Footer obligatorio: "Prototipo en testnet · sin dinero real · no es oferta pública".
+- **Nunca escribir "ARGt rinde" ni "rendimiento garantizado"** en UI, textos ni código. Footer obligatorio: "Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública".
 - CUIT nunca en claro onchain: `keccak256(cuit ‖ salt)`.
 - Textos de UI en castellano rioplatense (voseo).
 - Cambios chicos, con tests. TypeScript estricto. Montos como string decimal o bigint, **nunca number**.

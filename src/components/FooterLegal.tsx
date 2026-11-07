@@ -1,5 +1,5 @@
 // Footer legal obligatorio (DECISIONS.md D16). Va en todas las páginas.
-export const TEXTO_FOOTER_LEGAL = "Prototipo en testnet · sin dinero real · no es oferta pública";
+export const TEXTO_FOOTER_LEGAL = "Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública";
 
 export function FooterLegal() {
   return (

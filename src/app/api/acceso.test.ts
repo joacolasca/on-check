@@ -102,7 +102,7 @@ describe("/api/demo/acceso", () => {
     expect(r.headers.get("content-type")).toContain("text/html");
     const html = await r.text();
     expect(html).toContain('<form method="post"');
-    expect(html).toContain("Prototipo en testnet · sin dinero real · no es oferta pública");
+    expect(html).toContain("Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública");
   });
   it("clave mala → 401 y sin cookie", async () => {
     const r = await acceso.POST(form("mala"));

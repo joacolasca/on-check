@@ -1,6 +1,6 @@
 # Deploy web (Vercel) y ensayo de la demo
 
-Prototipo en testnet · sin dinero real · no es oferta pública. Nunca pegar claves en chats, issues ni commits.
+Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública. Nunca pegar claves en chats, issues ni commits.
 
 ## 1. Variables (solo **Production**; nunca en Preview ni Development)
 Si las claves están en Preview, cualquier rama con preview las recibe. Las marcadas como secretas van como **Sensitive**.

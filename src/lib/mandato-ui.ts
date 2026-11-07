@@ -823,6 +823,6 @@ export function resumenCopiable(inf: InformeVista): string {
     L.push("", "Con error");
     for (const e of inf.errores) L.push(`- ${e.nombre}: ${e.mensaje}`);
   }
-  L.push("", "Prototipo en testnet · sin dinero real · no es oferta pública");
+  L.push("", "Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública");
   return L.join("\n");
 }

@@ -244,4 +244,4 @@ Cambios aditivos, no rompen nada de lo anterior.
 3. **`/invertir` Inversor:** elegir cuenta de demo → KYC (aprobar) → invertir ARGt → ver cuotapartes y valor.
 4. **`/demo` Control (solo para nosotros):** "adelantar tiempo" (pagar o rechazar cada cheque Funded) y el estado de las wallets de demo.
 
-Footer en todas: *"Prototipo en testnet · sin dinero real · no es oferta pública"*.
+Footer en todas: *"Prototipo · el fondo opera en testnet, sin dinero real · no es oferta pública"*.

@@ -192,7 +192,7 @@ describe("corrida completa", () => {
     expect(texto).toContain("Liquidez: 41 % → 23 %");
     expect(texto).toContain("https://sepolia.basescan.org/tx/0xtxrebote");
     expect(texto).toContain("CONCENTRACION_EXCEDIDA");
-    expect(texto).toContain("Prototipo en testnet");
+    expect(texto).toContain("el fondo opera en testnet");
     expect(texto).not.toMatch(/\b(IA|AI)\b|rinde|rendimiento/);
   });
 

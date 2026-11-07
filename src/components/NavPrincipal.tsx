@@ -9,6 +9,8 @@ const LINKS = [
   { href: "/invertir", texto: "Invertir" },
   { href: "/mandato", texto: "Mandato" },
   { href: "/politicas", texto: "Políticas" },
+  { href: "/argt-real", texto: "ARGt real" },
+  { href: "/avalanche", texto: "Avalanche" },
   { href: "/demo", texto: "Demo" },
 ];
 
@@ -32,10 +34,11 @@ export function NavPrincipal() {
           <Marca />
           <span className="hidden font-semibold sm:inline">Fondo de cheques</span>
         </div>
-        <span className="flex items-center gap-2 rounded-full border border-linea-fuerte px-3 py-1.5 text-sm">
+        <Link href="/" title="El fondo corre en testnet con ARGt simulado. El pago con ARGt real está en Arbitrum." className="flex items-center gap-2 rounded-full border border-linea-fuerte px-3 py-1.5 text-sm">
           <span aria-hidden className="h-2 w-2 rounded-full bg-acento" />
-          Base Sepolia
-        </span>
+          <span className="hidden sm:inline">Fondo en testnet · ARGt real en Arbitrum</span>
+          <span className="sm:hidden">Testnet · ARGt real</span>
+        </Link>
         <TemaToggle />
       </div>
       <nav aria-label="Principal" className="mx-auto flex max-w-4xl overflow-x-auto px-4 text-sm">

@@ -132,8 +132,14 @@ function ArgtSeccion() {
   return (
     <div className="space-y-2 text-sm">
       <p className="text-suave">
-        Para operar en la demo usamos un ARGt simulado. Acá leemos el ARGt real de Twin en Base mainnet (solo lectura).
+        El fondo de la demo opera en testnet con un ARGt simulado, para poder mostrar cada regla sin mover plata. Con el ARGt real de Twin hicimos un pago de un cheque en Arbitrum One y desplegamos los mismos contratos en Avalanche Fuji.
       </p>
+      <p className="flex flex-wrap gap-x-4 gap-y-1">
+        <a className="underline" href="https://arbiscan.io/tx/0xd2d1a142027dd4ebdbadac7aefe833c24bc790c4a28bd9443e4fea21128429a9" target="_blank" rel="noreferrer">Transacción real en Arbiscan ↗</a>
+        <a className="underline" href="/argt-real">Pagar con ARGt real</a>
+        <a className="underline" href="/avalanche">Despliegue en Avalanche</a>
+      </p>
+      <p className="text-suave">Lectura en vivo del ARGt en Base mainnet:</p>
       <p>
         En circulación: <span className="font-mono tabular-nums">{formatDecimal(unidadesADecimal(a.totalSupply), 2)} ARGt</span>
       </p>
@@ -170,7 +176,7 @@ export function PanelPublico() {
         </>
       )}
       <Tarjeta titulo="Cartera: cheques y pagarés"><CarteraSeccion /></Tarjeta>
-      <Tarjeta titulo="ARGt real en Base mainnet"><ArgtSeccion /></Tarjeta>
+      <Tarjeta titulo="ARGt de Twin: operación real y multi-chain"><ArgtSeccion /></Tarjeta>
     </div>
   );
 }

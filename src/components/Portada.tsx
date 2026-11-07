@@ -1,4 +1,4 @@
-// Portada del panel: qué es On-Chain en una frase, los tres caminos y la evidencia onchain verificable.
+// Portada del panel: qué es onCheck en una frase, los tres caminos y la evidencia onchain verificable.
 import Link from "next/link";
 import { hashCorto, urlDireccionSepolia } from "@/lib/format";
 import { ARBISCAN, ARGT_ARBITRUM } from "@/lib/argt-real";
@@ -37,7 +37,7 @@ export function Portada({ direccionFondo }: { direccionFondo?: string }) {
   return (
     <section aria-labelledby="portada-titulo" className="space-y-5">
       <div className="space-y-3 pt-2">
-        <p className="text-xs font-medium uppercase tracking-[0.14em] text-suave">On-Chain · fondo de cheques y pagarés</p>
+        <p className="text-xs font-medium uppercase tracking-[0.14em] text-suave">onCheck · fondo de cheques y pagarés</p>
         <h1 id="portada-titulo" className="text-4xl font-semibold tracking-tight sm:text-5xl">
           El cheque, <span className="text-acento">a la vista.</span>
         </h1>

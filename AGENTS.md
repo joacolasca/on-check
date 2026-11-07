@@ -1,4 +1,4 @@
-# On-Chain — fondo de cheques y pagarés transparente
+# onCheck — fondo de cheques y pagarés transparente
 
 Instrucciones para cualquier agente de código (Claude Code, Codex u otro). Este archivo es la **única fuente de verdad**: `CLAUDE.md` solo lo importa.
 

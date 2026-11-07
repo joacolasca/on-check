@@ -1,6 +1,6 @@
 <div align="center">
 
-# On-Chain
+# onCheck
 
 ### El cheque, a la vista.
 
@@ -24,7 +24,7 @@ El MAV movió **$16,8 billones en el primer semestre de 2026**, un récord. En e
 
 ## La propuesta
 
-On-Chain compra **cheques electrónicos y pagarés** de pymes con fondos de inversores, y lo hace de una forma que se puede verificar:
+onCheck compra **cheques electrónicos y pagarés** de pymes con fondos de inversores, y lo hace de una forma que se puede verificar:
 
 | | |
 |---|---|

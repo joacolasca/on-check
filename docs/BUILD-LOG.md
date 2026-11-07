@@ -1,6 +1,6 @@
 # Cronología del proyecto
 
-Cómo se construyó On-Chain, en orden. Este repositorio nació el 7 de noviembre de 2026 como una importación en un solo commit del trabajo del equipo, que se desarrolló antes en un repositorio privado (el proyecto empezó el 2 de noviembre de 2026). Acá no se conserva ese historial, pero el trabajo previo está documentado.
+Cómo se construyó onCheck, en orden. Este repositorio nació el 7 de noviembre de 2026 como una importación en un solo commit del trabajo del equipo, que se desarrolló antes en un repositorio privado (el proyecto empezó el 2 de noviembre de 2026). Acá no se conserva ese historial, pero el trabajo previo está documentado.
 
 | Fecha | Qué se hizo |
 |---|---|

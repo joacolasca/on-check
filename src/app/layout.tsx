@@ -5,7 +5,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "On-Chain · El cheque, a la vista",
+  title: "onCheck · El cheque, a la vista",
   description: "Fondo de cheques y pagarés de pymes: cada activo es un registro público y los límites de riesgo los hace cumplir el contrato. Pagos con ARGt de Twin.",
 };
 
